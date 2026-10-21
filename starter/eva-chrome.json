@@ -1,0 +1,173 @@
+{
+    "format": "magna-site-kit",
+    "version": 1,
+    "pages": [],
+    "templates": [
+        {
+            "title": "Eva header",
+            "slug": "header",
+            "kind": "part",
+            "status": "published",
+            "blocks_data": [
+                {
+                    "id": "eva-sec-16",
+                    "type": "section",
+                    "settings": {},
+                    "columns": [
+                        {
+                            "id": "eva-col-18",
+                            "span": 3,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-38",
+                                    "block": "logo",
+                                    "settings": {},
+                                    "data": {
+                                        "text": "Journal",
+                                        "url": "/",
+                                        "height": "40px",
+                                        "alt": "",
+                                        "media_id": "",
+                                        "heading": "no"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "eva-col-19",
+                            "span": 6,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-39",
+                                    "block": "nav",
+                                    "settings": {},
+                                    "data": {
+                                        "menu": "primary"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "eva-col-20",
+                            "span": 3,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-40",
+                                    "block": "scheme-toggle",
+                                    "settings": {},
+                                    "data": {
+                                        "size": "sm",
+                                        "label": "Switch between light and dark"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_settings": {}
+        },
+        {
+            "title": "Eva footer",
+            "slug": "footer",
+            "kind": "part",
+            "status": "published",
+            "blocks_data": [
+                {
+                    "id": "eva-sec-17",
+                    "type": "section",
+                    "settings": {},
+                    "columns": [
+                        {
+                            "id": "eva-col-21",
+                            "span": 6,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-41",
+                                    "block": "logo",
+                                    "settings": {},
+                                    "data": {
+                                        "text": "Journal",
+                                        "url": "/",
+                                        "height": "32px",
+                                        "alt": "",
+                                        "media_id": "",
+                                        "heading": "no"
+                                    }
+                                },
+                                {
+                                    "id": "eva-blk-42",
+                                    "block": "text",
+                                    "settings": {},
+                                    "data": {
+                                        "body": "<p>Essays and notes on craft, published with care. Typeset in Newsreader and Plus Jakarta Sans.</p>"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "eva-col-22",
+                            "span": 3,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-43",
+                                    "block": "heading",
+                                    "settings": {},
+                                    "data": {
+                                        "level": "h4",
+                                        "text": "Sections",
+                                        "align": "left"
+                                    }
+                                },
+                                {
+                                    "id": "eva-blk-44",
+                                    "block": "nav",
+                                    "settings": {},
+                                    "data": {
+                                        "menu": "footer"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "eva-col-23",
+                            "span": 3,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-45",
+                                    "block": "heading",
+                                    "settings": {},
+                                    "data": {
+                                        "level": "h4",
+                                        "text": "Elsewhere",
+                                        "align": "left"
+                                    }
+                                },
+                                {
+                                    "id": "eva-blk-46",
+                                    "block": "nav",
+                                    "settings": {},
+                                    "data": {
+                                        "menu": "primary"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_settings": {}
+        }
+    ],
+    "menus": [],
+    "patterns": [],
+    "settings": {
+        "maintenance_mode": false
+    }
+}

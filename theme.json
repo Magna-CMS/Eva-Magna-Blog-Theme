@@ -1,0 +1,28 @@
+{
+    "name": "magna-cms/eva",
+    "displayName": "Eva",
+    "description": "A warm, editorial journal theme for Magna Pages and Magna Blog — serif headlines, sand and terracotta tones, and a calm reading experience in light and dark.",
+    "version": "1.0.0",
+    "author": "Magna CMS",
+    "license": "MIT",
+    "homepage": "https://github.com/Magna-CMS/Eva---Theme-for-Magna-Blog",
+    "screenshot": "screenshot.png",
+    "type": "magna-theme",
+    "tags": ["blog", "editorial", "journal", "magazine", "dark-mode", "serif"],
+    "compat": {
+        "magna": "^1.6.2",
+        "plugins": {
+            "magna-cms/pages": ">=0.3.0-alpha"
+        }
+    },
+    "blockSeeds": {
+        "heading": { "level": "h2", "text": "Recent dispatches" },
+        "blog-posts": { "heading": "Recent dispatches", "feed": "latest", "limit": 6, "pagination": "pages" },
+        "cta": {
+            "headline": "Thoughtful essays, delivered once a week.",
+            "body": "No noise, no algorithms — just considered writing, straight to your inbox.",
+            "layout": "centered"
+        },
+        "quote": { "quote": "Good tools disappear into the work.", "attribution": "Eva" }
+    }
+}

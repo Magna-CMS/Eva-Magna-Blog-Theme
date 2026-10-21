@@ -1,0 +1,794 @@
+{
+    "format": "magna-site-kit",
+    "version": 1,
+    "pages": [
+        {
+            "title": "Home",
+            "slug": "home",
+            "status": "published",
+            "meta_title": "",
+            "meta_description": "Essays and notes on design, code and intentional craft.",
+            "blocks_data": [
+                {
+                    "id": "eva-sec-1",
+                    "type": "section",
+                    "settings": {
+                        "cssClass": "eva-band--ruled",
+                        "anchor": "featured"
+                    },
+                    "columns": [
+                        {
+                            "id": "eva-col-1",
+                            "span": 12,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-1",
+                                    "block": "heading",
+                                    "settings": {},
+                                    "data": {
+                                        "level": "h6",
+                                        "text": "Featured essay",
+                                        "align": "left"
+                                    }
+                                },
+                                {
+                                    "id": "eva-blk-2",
+                                    "block": "blog-posts",
+                                    "settings": {},
+                                    "data": {
+                                        "heading": "",
+                                        "feed": "featured",
+                                        "limit": 1,
+                                        "pagination": "none"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "eva-sec-2",
+                    "type": "section",
+                    "settings": {
+                        "anchor": "articles"
+                    },
+                    "columns": [
+                        {
+                            "id": "eva-col-2",
+                            "span": 12,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-3",
+                                    "block": "blog-posts",
+                                    "settings": {},
+                                    "data": {
+                                        "heading": "Recent dispatches",
+                                        "feed": "latest",
+                                        "limit": 6,
+                                        "pagination": "pages"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "eva-sec-3",
+                    "type": "section",
+                    "settings": {
+                        "cssClass": "eva-band--muted eva-band--center",
+                        "anchor": "topics"
+                    },
+                    "columns": [
+                        {
+                            "id": "eva-col-3",
+                            "span": 12,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-4",
+                                    "block": "heading",
+                                    "settings": {},
+                                    "data": {
+                                        "level": "h6",
+                                        "text": "Editorial taxonomy",
+                                        "align": "center"
+                                    }
+                                },
+                                {
+                                    "id": "eva-blk-5",
+                                    "block": "heading",
+                                    "settings": {},
+                                    "data": {
+                                        "level": "h2",
+                                        "text": "Explore curated collections",
+                                        "align": "center"
+                                    }
+                                },
+                                {
+                                    "id": "eva-blk-6",
+                                    "block": "text",
+                                    "settings": {},
+                                    "data": {
+                                        "body": "<p>Thematic threads spanning design systems, analog rituals and typographic theory.</p>"
+                                    }
+                                },
+                                {
+                                    "id": "eva-blk-7",
+                                    "block": "features",
+                                    "settings": {},
+                                    "data": {
+                                        "layout": "icon-grid",
+                                        "items": "[{\"icon\": \"§\", \"title\": \"Design Systems\", \"description\": \"Tokens, components, rules\"}, {\"icon\": \"</>\", \"title\": \"Digital Craft\", \"description\": \"Software that ages well\"}, {\"icon\": \"☕\", \"title\": \"Slow Living\", \"description\": \"Rituals and attention\"}, {\"icon\": \"△\", \"title\": \"Architecture\", \"description\": \"Spatial form\"}, {\"icon\": \"¶\", \"title\": \"Typography\", \"description\": \"Optical form\"}, {\"icon\": \"#\", \"title\": \"Hardware\", \"description\": \"Tactile tools\"}]"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "eva-sec-4",
+                    "type": "section",
+                    "settings": {
+                        "cssClass": "eva-band--panel",
+                        "anchor": "author"
+                    },
+                    "columns": [
+                        {
+                            "id": "eva-col-4",
+                            "span": 4,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-8",
+                                    "block": "team",
+                                    "settings": {},
+                                    "data": {
+                                        "columns": "2",
+                                        "members": "[{\"name\": \"Your Name\", \"role\": \"Editor & essayist\", \"bio\": \"Add a photo and a short bio from the inspector.\"}]"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "eva-col-5",
+                            "span": 8,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-9",
+                                    "block": "heading",
+                                    "settings": {},
+                                    "data": {
+                                        "level": "h6",
+                                        "text": "About the author",
+                                        "align": "left"
+                                    }
+                                },
+                                {
+                                    "id": "eva-blk-10",
+                                    "block": "heading",
+                                    "settings": {},
+                                    "data": {
+                                        "level": "h2",
+                                        "text": "Writing slowly, on purpose.",
+                                        "align": "left"
+                                    }
+                                },
+                                {
+                                    "id": "eva-blk-11",
+                                    "block": "text",
+                                    "settings": {},
+                                    "data": {
+                                        "body": "<p>This journal is a place for longer thoughts — on craft, tools and the quiet discipline of making things well. Replace this text with your own introduction in the builder.</p>"
+                                    }
+                                },
+                                {
+                                    "id": "eva-blk-12",
+                                    "block": "quote",
+                                    "settings": {},
+                                    "data": {
+                                        "quote": "Good tools disappear into the work.",
+                                        "attribution": "Studio notes",
+                                        "source": ""
+                                    }
+                                },
+                                {
+                                    "id": "eva-blk-13",
+                                    "block": "button",
+                                    "settings": {},
+                                    "data": {
+                                        "label": "More about me",
+                                        "url": "/about",
+                                        "style": "outline",
+                                        "size": "md"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "eva-sec-5",
+                    "type": "section",
+                    "settings": {
+                        "cssClass": "eva-band--narrow",
+                        "anchor": "newsletter"
+                    },
+                    "columns": [
+                        {
+                            "id": "eva-col-6",
+                            "span": 12,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-14",
+                                    "block": "cta",
+                                    "settings": {},
+                                    "data": {
+                                        "layout": "centered",
+                                        "headline": "Thoughtful essays, delivered once a week.",
+                                        "body": "No sponsored noise, no algorithms. Just considered prose on design, software and slow creative habits.",
+                                        "button_primary_label": "Subscribe",
+                                        "button_primary_url": "/subscribe",
+                                        "button_secondary_label": "",
+                                        "button_secondary_url": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_settings": {}
+        },
+        {
+            "title": "About",
+            "slug": "about",
+            "status": "published",
+            "meta_title": "",
+            "meta_description": "About this journal and its author.",
+            "blocks_data": [
+                {
+                    "id": "eva-sec-6",
+                    "type": "section",
+                    "settings": {
+                        "cssClass": "eva-band--center eva-band--ruled"
+                    },
+                    "columns": [
+                        {
+                            "id": "eva-col-7",
+                            "span": 12,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-15",
+                                    "block": "heading",
+                                    "settings": {},
+                                    "data": {
+                                        "level": "h6",
+                                        "text": "Colophon",
+                                        "align": "center"
+                                    }
+                                },
+                                {
+                                    "id": "eva-blk-16",
+                                    "block": "hero",
+                                    "settings": {},
+                                    "data": {
+                                        "layout": "centered",
+                                        "headline": "A journal about making things well.",
+                                        "subheadline": "Long-form essays on craft, software ergonomics and contemplative living — published when they are ready, not before.",
+                                        "cta_primary_label": "Read the essays",
+                                        "cta_primary_url": "/",
+                                        "cta_secondary_label": "",
+                                        "cta_secondary_url": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "eva-sec-7",
+                    "type": "section",
+                    "settings": {
+                        "cssClass": "eva-band--narrow"
+                    },
+                    "columns": [
+                        {
+                            "id": "eva-col-8",
+                            "span": 12,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-17",
+                                    "block": "text",
+                                    "settings": {},
+                                    "data": {
+                                        "body": "<p>Tell readers who you are, what you write about and why. This page is built with Magna Pages blocks — open it in the builder to change anything.</p><h2>What you will find here</h2><ul><li>Essays on design systems and tools</li><li>Notes on slow, deliberate work</li><li>Occasional reading lists</li></ul>"
+                                    }
+                                },
+                                {
+                                    "id": "eva-blk-18",
+                                    "block": "stats",
+                                    "settings": {},
+                                    "data": {
+                                        "columns": "3",
+                                        "items": "[{\"value\": \"42\", \"label\": \"Essays\"}, {\"value\": \"6\", \"label\": \"Topics\"}, {\"value\": \"2019\", \"label\": \"Since\"}]"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "eva-sec-8",
+                    "type": "section",
+                    "settings": {
+                        "cssClass": "eva-band--narrow",
+                        "anchor": "newsletter"
+                    },
+                    "columns": [
+                        {
+                            "id": "eva-col-9",
+                            "span": 12,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-19",
+                                    "block": "cta",
+                                    "settings": {},
+                                    "data": {
+                                        "layout": "centered",
+                                        "headline": "Thoughtful essays, delivered once a week.",
+                                        "body": "No sponsored noise, no algorithms. Just considered prose on design, software and slow creative habits.",
+                                        "button_primary_label": "Subscribe",
+                                        "button_primary_url": "/subscribe",
+                                        "button_secondary_label": "",
+                                        "button_secondary_url": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_settings": {}
+        },
+        {
+            "title": "Page not found",
+            "slug": "not-found",
+            "status": "published",
+            "meta_title": "Page not found",
+            "meta_description": "The page you were looking for could not be found. Browse the latest essays instead.",
+            "blocks_data": [
+                {
+                    "id": "eva-sec-9",
+                    "type": "section",
+                    "settings": {
+                        "cssClass": "eva-band--center"
+                    },
+                    "columns": [
+                        {
+                            "id": "eva-col-10",
+                            "span": 12,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-20",
+                                    "block": "heading",
+                                    "settings": {},
+                                    "data": {
+                                        "level": "h6",
+                                        "text": "Error 404",
+                                        "align": "center"
+                                    }
+                                },
+                                {
+                                    "id": "eva-blk-21",
+                                    "block": "hero",
+                                    "settings": {},
+                                    "data": {
+                                        "layout": "centered",
+                                        "headline": "This page has wandered off.",
+                                        "subheadline": "The link may be old or mistyped. The essays are still where you left them.",
+                                        "cta_primary_label": "Back to the journal",
+                                        "cta_primary_url": "/",
+                                        "cta_secondary_label": "",
+                                        "cta_secondary_url": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "eva-sec-10",
+                    "type": "section",
+                    "settings": {
+                        "cssClass": "eva-band--flush"
+                    },
+                    "columns": [
+                        {
+                            "id": "eva-col-11",
+                            "span": 12,
+                            "settings": {},
+                            "blocks": [
+                                {
+                                    "id": "eva-blk-22",
+                                    "block": "blog-posts",
+                                    "settings": {},
+                                    "data": {
+                                        "heading": "Recently published",
+                                        "feed": "latest",
+                                        "limit": 3,
+                                        "pagination": "none"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "page_settings": {}
+        }
+    ],
+    "templates": [],
+    "menus": [
+        {
+            "handle": "primary",
+            "name": "Primary navigation",
+            "tree": [
+                {
+                    "label": "Essays",
+                    "type": "page",
+                    "page_slug": "home",
+                    "url": "",
+                    "target": "",
+                    "settings": {},
+                    "children": []
+                },
+                {
+                    "label": "Topics",
+                    "type": "url",
+                    "url": "/#topics",
+                    "target": "",
+                    "settings": {},
+                    "children": []
+                },
+                {
+                    "label": "About",
+                    "type": "page",
+                    "page_slug": "about",
+                    "url": "",
+                    "target": "",
+                    "settings": {},
+                    "children": []
+                },
+                {
+                    "label": "Newsletter",
+                    "type": "url",
+                    "url": "/#newsletter",
+                    "target": "",
+                    "settings": {},
+                    "children": []
+                }
+            ]
+        },
+        {
+            "handle": "footer",
+            "name": "Footer links",
+            "tree": [
+                {
+                    "label": "Lead essay",
+                    "type": "url",
+                    "url": "/#featured",
+                    "target": "",
+                    "settings": {},
+                    "children": []
+                },
+                {
+                    "label": "Archive",
+                    "type": "url",
+                    "url": "/#articles",
+                    "target": "",
+                    "settings": {},
+                    "children": []
+                },
+                {
+                    "label": "Topics",
+                    "type": "url",
+                    "url": "/#topics",
+                    "target": "",
+                    "settings": {},
+                    "children": []
+                },
+                {
+                    "label": "About",
+                    "type": "page",
+                    "page_slug": "about",
+                    "url": "",
+                    "target": "",
+                    "settings": {},
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "patterns": [
+        {
+            "name": "Eva — Lead story",
+            "kind": "section",
+            "document": {
+                "id": "eva-sec-11",
+                "type": "section",
+                "settings": {
+                    "cssClass": "eva-band--ruled",
+                    "anchor": "featured"
+                },
+                "columns": [
+                    {
+                        "id": "eva-col-12",
+                        "span": 12,
+                        "settings": {},
+                        "blocks": [
+                            {
+                                "id": "eva-blk-23",
+                                "block": "heading",
+                                "settings": {},
+                                "data": {
+                                    "level": "h6",
+                                    "text": "Featured essay",
+                                    "align": "left"
+                                }
+                            },
+                            {
+                                "id": "eva-blk-24",
+                                "block": "blog-posts",
+                                "settings": {},
+                                "data": {
+                                    "heading": "",
+                                    "feed": "featured",
+                                    "limit": 1,
+                                    "pagination": "none"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Eva — Recent posts grid",
+            "kind": "section",
+            "document": {
+                "id": "eva-sec-12",
+                "type": "section",
+                "settings": {
+                    "anchor": "articles"
+                },
+                "columns": [
+                    {
+                        "id": "eva-col-13",
+                        "span": 12,
+                        "settings": {},
+                        "blocks": [
+                            {
+                                "id": "eva-blk-25",
+                                "block": "blog-posts",
+                                "settings": {},
+                                "data": {
+                                    "heading": "Recent dispatches",
+                                    "feed": "latest",
+                                    "limit": 6,
+                                    "pagination": "pages"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Eva — Topic collections",
+            "kind": "section",
+            "document": {
+                "id": "eva-sec-13",
+                "type": "section",
+                "settings": {
+                    "cssClass": "eva-band--muted eva-band--center",
+                    "anchor": "topics"
+                },
+                "columns": [
+                    {
+                        "id": "eva-col-14",
+                        "span": 12,
+                        "settings": {},
+                        "blocks": [
+                            {
+                                "id": "eva-blk-26",
+                                "block": "heading",
+                                "settings": {},
+                                "data": {
+                                    "level": "h6",
+                                    "text": "Editorial taxonomy",
+                                    "align": "center"
+                                }
+                            },
+                            {
+                                "id": "eva-blk-27",
+                                "block": "heading",
+                                "settings": {},
+                                "data": {
+                                    "level": "h2",
+                                    "text": "Explore curated collections",
+                                    "align": "center"
+                                }
+                            },
+                            {
+                                "id": "eva-blk-28",
+                                "block": "text",
+                                "settings": {},
+                                "data": {
+                                    "body": "<p>Thematic threads spanning design systems, analog rituals and typographic theory.</p>"
+                                }
+                            },
+                            {
+                                "id": "eva-blk-29",
+                                "block": "features",
+                                "settings": {},
+                                "data": {
+                                    "layout": "icon-grid",
+                                    "items": "[{\"icon\": \"§\", \"title\": \"Design Systems\", \"description\": \"Tokens, components, rules\"}, {\"icon\": \"</>\", \"title\": \"Digital Craft\", \"description\": \"Software that ages well\"}, {\"icon\": \"☕\", \"title\": \"Slow Living\", \"description\": \"Rituals and attention\"}, {\"icon\": \"△\", \"title\": \"Architecture\", \"description\": \"Spatial form\"}, {\"icon\": \"¶\", \"title\": \"Typography\", \"description\": \"Optical form\"}, {\"icon\": \"#\", \"title\": \"Hardware\", \"description\": \"Tactile tools\"}]"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Eva — Author panel",
+            "kind": "section",
+            "document": {
+                "id": "eva-sec-14",
+                "type": "section",
+                "settings": {
+                    "cssClass": "eva-band--panel",
+                    "anchor": "author"
+                },
+                "columns": [
+                    {
+                        "id": "eva-col-15",
+                        "span": 4,
+                        "settings": {},
+                        "blocks": [
+                            {
+                                "id": "eva-blk-30",
+                                "block": "team",
+                                "settings": {},
+                                "data": {
+                                    "columns": "2",
+                                    "members": "[{\"name\": \"Your Name\", \"role\": \"Editor & essayist\", \"bio\": \"Add a photo and a short bio from the inspector.\"}]"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id": "eva-col-16",
+                        "span": 8,
+                        "settings": {},
+                        "blocks": [
+                            {
+                                "id": "eva-blk-31",
+                                "block": "heading",
+                                "settings": {},
+                                "data": {
+                                    "level": "h6",
+                                    "text": "About the author",
+                                    "align": "left"
+                                }
+                            },
+                            {
+                                "id": "eva-blk-32",
+                                "block": "heading",
+                                "settings": {},
+                                "data": {
+                                    "level": "h2",
+                                    "text": "Writing slowly, on purpose.",
+                                    "align": "left"
+                                }
+                            },
+                            {
+                                "id": "eva-blk-33",
+                                "block": "text",
+                                "settings": {},
+                                "data": {
+                                    "body": "<p>This journal is a place for longer thoughts — on craft, tools and the quiet discipline of making things well. Replace this text with your own introduction in the builder.</p>"
+                                }
+                            },
+                            {
+                                "id": "eva-blk-34",
+                                "block": "quote",
+                                "settings": {},
+                                "data": {
+                                    "quote": "Good tools disappear into the work.",
+                                    "attribution": "Studio notes",
+                                    "source": ""
+                                }
+                            },
+                            {
+                                "id": "eva-blk-35",
+                                "block": "button",
+                                "settings": {},
+                                "data": {
+                                    "label": "More about me",
+                                    "url": "/about",
+                                    "style": "outline",
+                                    "size": "md"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Eva — Newsletter band",
+            "kind": "section",
+            "document": {
+                "id": "eva-sec-15",
+                "type": "section",
+                "settings": {
+                    "cssClass": "eva-band--narrow",
+                    "anchor": "newsletter"
+                },
+                "columns": [
+                    {
+                        "id": "eva-col-17",
+                        "span": 12,
+                        "settings": {},
+                        "blocks": [
+                            {
+                                "id": "eva-blk-36",
+                                "block": "cta",
+                                "settings": {},
+                                "data": {
+                                    "layout": "centered",
+                                    "headline": "Thoughtful essays, delivered once a week.",
+                                    "body": "No sponsored noise, no algorithms. Just considered prose on design, software and slow creative habits.",
+                                    "button_primary_label": "Subscribe",
+                                    "button_primary_url": "/subscribe",
+                                    "button_secondary_label": "",
+                                    "button_secondary_url": ""
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Eva — Eyebrow label",
+            "kind": "block",
+            "document": {
+                "id": "eva-blk-37",
+                "block": "heading",
+                "settings": {},
+                "data": {
+                    "level": "h6",
+                    "text": "Section label",
+                    "align": "left"
+                }
+            }
+        }
+    ],
+    "settings": {
+        "home_page_slug": "home",
+        "not_found_page_slug": "not-found",
+        "maintenance_mode": false
+    }
+}
