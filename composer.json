@@ -1,0 +1,30 @@
+{
+    "name": "magna-cms/eva",
+    "description": "Eva — a warm, editorial journal theme for Magna CMS. Native to Magna Pages, styled for Magna Blog. Light & dark mode, Lighthouse SEO 100.",
+    "type": "magna-theme",
+    "keywords": [
+        "magna", "magna-cms", "magna-theme", "theme", "blog", "editorial",
+        "magna-pages", "magna-blog", "dark-mode", "laravel"
+    ],
+    "homepage": "https://github.com/Magna-CMS/Eva-Magna-Blog-Theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magna Team",
+            "email": "jishnurajm@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Magna-CMS/Eva-Magna-Blog-Theme/issues",
+        "source": "https://github.com/Magna-CMS/Eva-Magna-Blog-Theme"
+    },
+    "require": {
+        "php": "^8.3"
+    },
+    "extra": {
+        "magna": {
+            "manifest": "theme.json"
+        }
+    }
+}

@@ -109,10 +109,14 @@ What Eva does for you out of the box:
 
 ## Install
 
-1. Download this repository as a zip (or clone it).
-2. Put the folder at `themes/magna-cms/eva/` in your Magna install, so that
-   `themes/magna-cms/eva/theme.json` exists. (Uploading the zip through **Admin → Themes** does the
-   same thing.)
+**From the Magna marketplace** (once listed): **Admin → Themes → Browse marketplace**, install Eva, then
+click **Activate**. Skip to step 4.
+
+**Manually:**
+
+1. Download the latest release zip (or clone this repository).
+2. Unzip it to `themes/magna-cms/eva/` in your Magna install, so that
+   `themes/magna-cms/eva/theme.json` exists.
 3. Go to **Admin → Themes** and click **Activate** on Eva.
 4. Optional, but recommended — load the starter content:
 
@@ -185,6 +189,7 @@ All tokens are editable in **Pages → Design** and can be overridden per sectio
 ```
 eva/
 ├── theme.json                  manifest (magna-cms/eva)
+├── composer.json               package metadata ("type": "magna-theme") for Packagist / the marketplace
 ├── tokens.json                 design tokens with light + dark values
 ├── screenshot.png
 ├── starter/
