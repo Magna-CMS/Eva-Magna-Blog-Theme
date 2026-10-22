@@ -8,21 +8,42 @@
     "homepage": "https://github.com/Magna-CMS/Eva-Magna-Blog-Theme",
     "screenshot": "screenshot.png",
     "type": "magna-theme",
-    "tags": ["blog", "editorial", "journal", "magazine", "dark-mode", "serif"],
+    "tags": [
+        "blog",
+        "editorial",
+        "journal",
+        "magazine",
+        "dark-mode",
+        "serif"
+    ],
     "compat": {
         "magna": "^1.6.2",
         "plugins": {
             "magna-cms/pages": ">=0.3.0-alpha"
         }
     },
+    "demoContent": [
+        "starter/eva-site.json"
+    ],
     "blockSeeds": {
-        "heading": { "level": "h2", "text": "Recent dispatches" },
-        "blog-posts": { "heading": "Recent dispatches", "feed": "latest", "limit": 6, "pagination": "pages" },
+        "heading": {
+            "level": "h2",
+            "text": "Recent dispatches"
+        },
+        "blog-posts": {
+            "heading": "Recent dispatches",
+            "feed": "latest",
+            "limit": 6,
+            "pagination": "pages"
+        },
         "cta": {
             "headline": "Thoughtful essays, delivered once a week.",
             "body": "No noise, no algorithms — just considered writing, straight to your inbox.",
             "layout": "centered"
         },
-        "quote": { "quote": "Good tools disappear into the work.", "attribution": "Eva" }
+        "quote": {
+            "quote": "Good tools disappear into the work.",
+            "attribution": "Eva"
+        }
     }
 }

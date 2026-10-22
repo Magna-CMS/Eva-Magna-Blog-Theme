@@ -71,7 +71,7 @@ editable in the Magna Pages builder.
 | **Blog posts block** | Card grid with image zoom, dates and "Read essay" affordance. A block showing **one** post (e.g. the *Featured* feed with limit 1) automatically becomes a large **lead story**. |
 | **Every core block** | Hero, CTA (newsletter panel), features (topic cards), team (author card), quote, FAQ, stats, pricing, testimonials, gallery, table, code, nav, search, pagination, popups and more. |
 | **Light & dark** | Every colour token ships a dark value. Follows the visitor's system setting, Magna's colour-scheme setting and the scheme-toggle block. |
-| **Starter kit** | A ready home page, About page, 404 page, menus and reusable section patterns. |
+| **Demo content** | One click on install: home, About and 404 pages, menus, section patterns and six illustrated demo posts — added without touching anything you already have. |
 
 ## SEO & performance
 
@@ -118,16 +118,17 @@ click **Activate**. Skip to step 4.
 2. Unzip it to `themes/magna-cms/eva/` in your Magna install, so that
    `themes/magna-cms/eva/theme.json` exists.
 3. Go to **Admin → Themes** and click **Activate** on Eva.
-4. Optional, but recommended — load the starter content:
+4. Optional, but recommended — install with **demo content**. Tick **Include demo content** next to
+   the install button in **Themes → Browse marketplace**, or press **Import demo content** on Eva's
+   card under **Installed**. This adds:
 
-   ```bash
-   php artisan magna:site:sync themes/magna-cms/eva/starter/eva-site.json
-   ```
+   - **Home**, **About** and **Page not found** pages (set as the home and 404 pages if you have none)
+   - the `primary` and `footer` menus and Eva's section patterns
+   - **six demo posts** with categories, tags and cover images (needs Magna Blog)
 
-   This creates **Home**, **About** and **Page not found** pages, the `primary` and `footer` menus,
-   sets the home and 404 pages, and adds Eva's section patterns to the builder library. Sync only
-   adds or updates by slug — it never deletes anything. Run `magna:site:diff` first if you want to
-   preview it.
+   Only what your site does not have yet is added — an existing page, menu, post or setting is never
+   changed. From the command line, `php artisan magna:site:sync themes/magna-cms/eva/starter/eva-site.json`
+   applies the same kit as a full sync (it updates existing pages with the same slug).
 
 5. Optional — make the header and footer editable in the builder:
 
@@ -193,7 +194,7 @@ eva/
 ├── tokens.json                 design tokens with light + dark values
 ├── screenshot.png
 ├── starter/
-│   ├── eva-site.json           pages, menus, patterns, home/404 settings
+│   ├── eva-site.json           demo content: pages, menus, patterns, posts, home/404
 │   └── eva-chrome.json         optional header/footer template parts
 └── views/
     ├── system/layout.blade.php the page shell
