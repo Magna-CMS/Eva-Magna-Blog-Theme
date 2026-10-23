@@ -1,7 +1,8 @@
 <h1 align="center">Eva</h1>
 
 <p align="center">
-  A warm, editorial journal theme for <strong>Magna Pages</strong> and <strong>Magna Blog</strong>.<br>
+  A warm, editorial journal theme for <a href="https://github.com/Magna-CMS/Magna"><strong>Magna CMS</strong></a>,
+  built for <strong>Magna Pages</strong> and <strong>Magna Blog</strong>.<br>
   Serif headlines, sand and terracotta tones, and a calm reading experience in light and dark.
 </p>
 
@@ -56,10 +57,10 @@ Every colour token ships a dark value. Eva follows the visitor's system setting 
 
 ---
 
-Eva is a **native Magna theme**: plain `theme.json` + `tokens.json` + Blade views, no build step, no
-PHP classes, nothing to compile. Every colour, font and width is a design token, so you can retune
-the whole theme from **Pages → Design** without touching a file, and every page stays fully
-editable in the Magna Pages builder.
+Eva is a **native theme for [Magna CMS](https://github.com/Magna-CMS/Magna)**: plain `theme.json` +
+`tokens.json` + Blade views, no build step, no PHP classes, nothing to compile. Every colour, font and
+width is a design token, so you can retune the whole theme from the Magna Pages builder's **Design**
+panel without touching a file, and every page stays fully editable in the Magna Pages builder.
 
 ## What's in the box
 
@@ -103,11 +104,14 @@ What Eva does for you out of the box:
 
 ## Requirements
 
-- Magna CMS **1.6.2+**
+- [Magna CMS](https://github.com/Magna-CMS/Magna) **1.6.2+**
 - Magna Pages **0.3.0-alpha+**
 - Magna Blog **1.2.0+** (recommended — Eva works without it, but it is designed for it)
 
-## Install
+One-click demo content (**Include demo content** / **Import demo content**) needs Magna CMS **1.7.0+**
+and Magna Pages **0.6.0-alpha+**; the six demo posts need Magna Blog **1.3.0+**.
+
+## Installation
 
 **From the Magna marketplace** (once listed): **Admin → Themes → Browse marketplace**, install Eva, then
 click **Activate**. Skip to step 4.
@@ -144,7 +148,12 @@ click **Activate**. Skip to step 4.
 
 > **Tip:** Mark a post as *Featured* in Magna Blog to put it in the home page's lead story.
 
-## Section classes
+## Usage
+
+Once Eva is active, build pages in the Magna Pages builder as usual. Eva adds a small vocabulary of
+section classes, restyles several core blocks, and exposes its look as design tokens.
+
+### Section classes
 
 Magna Pages lets you give any section a **CSS class** (section settings → *CSS class*). Eva's
 vocabulary — combine them freely:
@@ -161,7 +170,7 @@ vocabulary — combine them freely:
 | `eva-band--tight` | Halves the vertical padding |
 | `eva-band--flush` | Removes the top padding (to sit under the previous band) |
 
-## Little things worth knowing
+### Little things worth knowing
 
 - **Eyebrow labels:** a Heading block set to **H6** renders as Eva's small uppercase terracotta label
   with a pulsing dot — use it above section titles. It is output as a paragraph, so it never breaks
@@ -176,7 +185,7 @@ vocabulary — combine them freely:
 
 ## Design tokens
 
-All tokens are editable in **Pages → Design** and can be overridden per section.
+All tokens are editable in the Magna Pages builder's **Design** panel and can be overridden per section.
 
 | Group | Tokens |
 |---|---|
@@ -221,4 +230,4 @@ Typefaces: [Newsreader](https://fonts.google.com/specimen/Newsreader),
 
 ## License
 
-MIT
+Eva is open-source software licensed under the [MIT license](LICENSE).
